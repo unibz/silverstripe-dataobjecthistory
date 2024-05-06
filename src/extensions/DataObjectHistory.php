@@ -82,8 +82,7 @@ class DataObjectHistory extends DataExtension
                     $owner->ClassName,
                     $owner->ID
                 )
-                // ->sort('Version', 'DESC')
-                ,
+                ->sort('"'.DataObject::getSchema()->baseDataTable($owner).'"."Version"', 'DESC'),
                 $config
             )
             ->addExtraClass('grid-field--history')
