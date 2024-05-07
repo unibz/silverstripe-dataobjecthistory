@@ -18,6 +18,7 @@ use SilverStripe\Versioned\Versioned;
 use Symbiote\GridFieldExtensions\GridFieldTitleHeader;
 use gorriecoe\DataObjectHistory\Forms\GridFieldHistoryButton;
 use gorriecoe\DataObjectHistory\Forms\HistoryGridFieldItemRequest;
+use SilverStripe\ORM\DataObject;
 
 /**
  * DataObjectHistory
